@@ -61,6 +61,7 @@ as `ALTER TABLE` statements in `DDL.sql` rather than folded silently into the
 original `CREATE TABLE`, so the schema's actual history is visible.
 
 ## Repository structure
+'''text
 nairobi-academy-school-database/
 ├── README.md 
 ├── DDL.sql ← Section A: CREATE SCHEMA, CREATE TABLE, ALTER TABLE
