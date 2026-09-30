@@ -61,12 +61,13 @@ as `ALTER TABLE` statements in `DDL.sql` rather than folded silently into the
 original `CREATE TABLE`, so the schema's actual history is visible.
 
 ## Repository structure
-'''text
+```text
 nairobi-academy-school-database/
-├── README.md 
-├── DDL.sql ← Section A: CREATE SCHEMA, CREATE TABLE, ALTER TABLE
-├── DML.sql ← Section B: INSERT, UPDATE, DELETE
-└── DQL.sql ← Section C: SELECT 
+├── README.md
+├── DDL.sql        # Section A: CREATE SCHEMA, CREATE TABLE
+├── DML.sql        # Section B: INSERT, UPDATE, DELETE
+└── DQL.sql        # Section C: SELECT queries
+```
 ## How to run this
 
 Run the files **in order** — each one depends on the last:
